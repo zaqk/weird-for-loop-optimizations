@@ -7,7 +7,7 @@ increment0 : The current gas saving meta
 
 increment1 : The new cheaper version of the meta
 
-increment2 : new cheaper version optimized even further using += instead of ++ to save even more gas
+increment2 : identical to increment2 but optimized even further using += instead of ++ to save even more gas
 
 
 ## UPDATE
