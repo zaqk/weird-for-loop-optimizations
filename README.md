@@ -1,4 +1,4 @@
-# More optimial for loops
+# More optimal for loops
 While testing out some for-loop optimizations in Solidity we found a significantly cheaper method. Over 20% cheaper than the current gas saving meta with 1000 loops.
 
 In test.sol there are 3 functions with the total gas cost in comments above them:
