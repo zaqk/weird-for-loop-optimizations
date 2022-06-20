@@ -3,11 +3,11 @@ While testing out some for-loop optimizations in Solidity we found a significant
 
 In test.sol there are 3 functions with the total gas cost in comments above them:
 
-increment0 : The current gas saving meta
+- **increment0** : The current gas saving meta
 
-increment1 : The new cheaper version of the meta
+- **increment1** : The new cheaper version of the meta
 
-increment2 : identical to increment2 but optimized even further using += instead of ++ to save even more gas
+- **increment2** : identical to increment2 but optimized even further using += instead of ++ to save even more gas
 
 
 ## UPDATE
