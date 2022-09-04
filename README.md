@@ -35,7 +35,7 @@ In test.sol there are 3 functions with the total gas cost in comments above them
 
 
 
-## OPCODE
+## OPCODES
 
 
 ### increment0
