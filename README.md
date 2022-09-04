@@ -35,8 +35,7 @@ In test.sol there are 3 functions with the total gas cost in comments above them
 
 
 
-## UPDATE
-Dug into the opcodes to try and figure out exactly why this is cheaper and I figured it out. Tested increment0 and increment1 to try and figure out where the savings where coming from. Also while doing this i found out that >= is infact cheaper than < because with < or > you need an extra ISZERO opcode. So i refactored increment1 to have a > instead of >= to make the tests more fair
+## OPCODE
 
 
 ### increment0
