@@ -1,13 +1,10 @@
 # More optimal for loops
-While testing out some for-loop optimizations in Solidity we found a significantly cheaper method. Over 20% cheaper than the most common gas saving for loops method per loop.
 
 In test.sol there are 3 functions with the total gas cost in comments above them:
 
-- **increment0** : The current most popular gas optimized style for loop w/ unchecked increments
+- **increment0** : The unchecked style for loop 
 
 - **increment1** : A cheaper more optimized version of increment0
-
-- **increment2** : identical to increment2 but optimized even further using += instead of ++ to save even more gas
 
 ## Total gas cost breakdown
 ### increment0
